@@ -29,6 +29,8 @@ AXION_CAMERA_REAR_INFO := 12.2,12
 AXION_CAMERA_FRONT_INFO := 8
 AXION_MAINTAINER := rmp
 
+TARGET_INCLUDE_VIPERFX := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bluejay-user 15 BP1A.250505.005 13277524 release-keys" \
     BuildFingerprint=google/bluejay/bluejay:15/BP1A.250505.005/13277524:user/release-keys \
