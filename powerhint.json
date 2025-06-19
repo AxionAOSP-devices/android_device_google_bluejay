@@ -527,10 +527,7 @@
       "Path": "vendor.powerhal.dalvik.vm.dex2oat-threads",
       "Values": [
         "1",
-        "2",
-        "4",
-        "6",
-        "8"
+        "2"
       ],
       "Type": "Property"
     },
@@ -538,9 +535,7 @@
       "Name": "Dex2oatCPUSet",
       "Path": "vendor.powerhal.dalvik.vm.dex2oat-cpu-set",
       "Values": [
-        "0,1,2,3",
-        "0,1,2,3,4,5",
-        "0,1,2,3,4,5,6,7"
+        "0,1"
       ],
       "Type": "Property"
     },
@@ -1730,13 +1725,13 @@
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_LIGHT",
       "Node": "Dex2oatThreads",
       "Duration": 0,
-      "Value": "6"
+      "Value": "2"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_LIGHT",
       "Node": "Dex2oatCPUSet",
       "Duration": 0,
-      "Value": "0,1,2,3,4,5"
+      "Value": "0,1"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_LIGHT",
@@ -1748,13 +1743,13 @@
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_MODERATE",
       "Node": "Dex2oatThreads",
       "Duration": 0,
-      "Value": "4"
+      "Value": "2"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_MODERATE",
       "Node": "Dex2oatCPUSet",
       "Duration": 0,
-      "Value": "0,1,2,3"
+      "Value": "0,1"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
